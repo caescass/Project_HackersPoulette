@@ -1,4 +1,4 @@
-# Le project Hackers Poulette
+# Le projet Hackers Poulette
 
 ## Quel est notre projet ?
 
