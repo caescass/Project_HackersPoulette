@@ -19,24 +19,10 @@
 </head>
 <body>
     <div class="main">
-    <!-- Début de la navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                        <a class="navbar-brand" href="index.php">Hackers Poulette</a>
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="product.php">Product <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.php">Contact</a>
-                    </li>
-                   
-                  </ul>
-                </div>
-    </nav>
+        <?php
+        include 'navbar.php';
+        
+        ?>
     <!-- Fin de la navigation -->
 
     <!-- Début du container-fluid-->
@@ -44,7 +30,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Le logo et le texte-->
-                    <article class="col-6">
+                    <article class="col-6 coordonees">
                         <img src="assets/img/hackers-poulette-logo_blanc-02.svg" class="img-fluid" alt="Hackers Poulette"/>
                         
                         <section class="visit">
