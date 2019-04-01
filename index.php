@@ -24,13 +24,13 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                        <a class="navbar-brand" href="#">Hackers Poulette</a>
+                        <a class="navbar-brand" href="index.php">Hackers Poulette</a>
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Product <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="product.php">Product <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                    
                   </ul>
