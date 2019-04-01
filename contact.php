@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,10 +30,10 @@
             <div class="container-fluid">
                 <div class="row" id="principal">
                     <!-- Le logo et le texte-->
-                    <article class="col-md-6 col-lg-6 coordonees">
+                    <article class="col-md-6 col-lg-6 slide-in-bck-top">
                         <img src="assets/img/hackers-poulette-logo_blanc-02.svg" class="img-fluid" alt="Hackers Poulette"/>
                         
-                        <section class="visit">
+                        <section class="visit slide-in-bck-top">
                             <h1>Visit Us At</h1>
                             <!-- ligne blanche-->
                                 <hr>     
@@ -40,19 +44,32 @@
                     </article>
 
                     <!-- Le formulaire-->
-                    <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6 slide-in-bottom">
                         <h3 class="center">Contact us</h3>
-                        <form action="contact.php" method="GET">
-                            <input name="first-name"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input"/>
-                            <input name="last-name"  placeholder="Last name" type="text" class="col-md-5 input"/><p></p>
-                            <select name="genre" class="col-md-2 col-md-offset-1 input">
-                                <option value="Man">H</option>
-                                <option value="Women">F</option>
-                            </select>
-                            <input name="Country"  placeholder="Country"  type="text" class="col-md-8 input"/><p></p>
-                            <input name="Subject"  placeholder="Subject"  type="text" class="col-md-10 input"/><p></p>
+                        <form action="contact.php" method="POST">
+                            
+                                <input value="<?php if(isset($_SESSION["first-name"])){echo($_SESSION["first-name"]);} ?>" name="first-name"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input"/>
+                                <input value="<?php if(isset($_SESSION["Last-name"])){echo($_SESSION["Last-name"]);} ?>"name="last-name"  placeholder="Last name" type="text" class="col-md-5 input"/><p></p>
+                            
+                            
+                                <select name="genre" class="col-md-2 col-md-offset-1 input">
+                                    <option value="Man">H</option>
+                                    <option value="Women">F</option>
+                                </select>
+                                <input value="<?php if(isset($_SESSION["Country"])){echo($_SESSION["Country"]);} ?>" name="Country"  placeholder="Country"  type="text" class="col-md-8 input"/><p></p>
+                            
+                            
+                            
+                                <input value="<?php if(isset($_SESSION["email"])){echo($_SESSION["email"]);} ?>" name="email"  placeholder="email"  type="email" class="col-md-10  input"/><p></p>
+                                <input value="<?php if(isset($_SESSION["Subject"])){echo($_SESSION["Subject"]);} ?>" name="Subject"  placeholder="Subject"  type="text" class="col-md-10 input"/><p></p>
+                            
+                            
+                            
                             <textarea name="Message"  placeholder="Message"  type="text"class="col-md-10 input2" ></textarea><p></p>
+                            
+                            
                             <input type=submit value="send" name="send"class="col-md-10 input submit"/>
+                            </>
                         </form>
                     </aside>
                 
