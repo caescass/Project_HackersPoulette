@@ -1,0 +1,11 @@
+
+body {
+    background: rgb(48,48,48);
+    background: linear-gradient(211deg, rgba(48,48,48,1) 0%, rgba(24,130,152,1) 37%, rgba(0,212,255,1) 100%); 
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "Bellota-Bold";
+    src: url("assets/font/bellota/bellota-fontfacekit/web-fonts/bellota_bold_macroman/Bellota-Bold-webfont.woff")format("woff");
+}
