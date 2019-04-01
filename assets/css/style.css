@@ -3,20 +3,16 @@ body { background: #303030; background: linear-gradient(211deg, #303030 0%, #188
 /* Logo et texte  */
 .img-fluid { max-width: 55%; }
 
-h1 { font-family: "Bellota Bold"; color: white; text-align: center; }
+h1 { font-family: Bellota; color: white; text-align: center; }
 
 hr { color: white; border: solid 1px white; display: block; }
 
 p { color: white; }
 
-.footer { text-align: center; }
+.footer { font-family: bellota; text-align: center; background-color: #343A40; }
 
 /*Le formulaire*/
 h3 { color: white; text-align: center; }
+
+#foot { width: 100%; padding-top: 2em; padding-bottom: 2em; }
 /*# sourceMappingURL=style.css.map */
-
-.coordonees{
-
-    align-content: center;
-
-}
