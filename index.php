@@ -29,27 +29,73 @@
     <!-- Fin de la navigation -->
 
     <!-- Début du container-fluid-->
-        <div class="container-fluid">
-            <div class="container">
+        <div class="container-fluid entete">
+
                 <div class="row">
                    <!-- Début carousel-->
-
+                        <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/Untitled design(3).png" alt="Raspberry Pi">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/Untitled design(2).png" alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/Untitled design(1).png" alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
                    <!-- Fin carousel-->
             
             
-            </div>
+          
         
         </div> 
     <!-- Fin du container-fluid -->
+    </div>
+
     <!-- Le footer-->
 
-      <?php
+    <?php
       
-        include 'footer.php';
-      
-      ?>
+      include 'footer.php';
+    
+    ?>
 
-    </div>
 <!-- javacript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

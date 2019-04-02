@@ -1,3 +1,7 @@
+<?php
+include 'verifServer.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,16 +24,19 @@
     include 'navbar.php';
     ?>
 
+    <!-- Creation des SESSION -->
+
+
 
     <!-- Début du container-fluid-->
         <div class="un">
             <div class="container-fluid">
                 <div class="row" id="principal">
                     <!-- Le logo et le texte-->
-                    <article class="col-md-6 col-lg-6 coordonees">
+                    <article class="col-md-6 col-lg-6 slide-in-bck-top">
                         <img src="assets/img/hackers-poulette-logo_blanc-02.svg" class="img-fluid" alt="Hackers Poulette"/>
                         
-                        <section class="visit">
+                        <section class="visit slide-in-bck-top">
                             <h1>Visit Us At</h1>
                             <!-- ligne blanche-->
                                 <hr>     
@@ -40,19 +47,32 @@
                     </article>
 
                     <!-- Le formulaire-->
-                    <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6 slide-in-bottom">
                         <h3 class="center">Contact us</h3>
-                        <form action="contact.php" method="GET">
-                            <input name="first-name"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input"/>
-                            <input name="last-name"  placeholder="Last name" type="text" class="col-md-5 input"/><p></p>
-                            <select name="genre" class="col-md-2 col-md-offset-1 input">
-                                <option value="Man">H</option>
-                                <option value="Women">F</option>
-                            </select>
-                            <input name="Country"  placeholder="Country"  type="text" class="col-md-8 input"/><p></p>
-                            <input name="Subject"  placeholder="Subject"  type="text" class="col-md-10 input"/><p></p>
-                            <textarea name="Message"  placeholder="Message"  type="text"class="col-md-10 input2" ></textarea><p></p>
-                            <input type=submit value="send" name="send"class="col-md-10 input submit"/>
+                        <form action="contact.php" method="POST" OnSubmit="return verif()">
+                            
+                                <input name="firstName"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input" value="<?php echo !empty($firstName)? $firstName : '';?>"/>
+                                <input name="lastName"  placeholder="Last Name" type="text" class="col-md-5 input" value="<?php echo !empty($lastName)? $lastName : '';?>"/><p></p>
+                            
+                            
+                                <select name="genre" class="col-md-2 col-md-offset-1 input" value="<?php echo !empty($genre)? $genre : '';?>">
+                                    <option value="Man">H</option>
+                                    <option value="Women">F</option>
+                                </select>
+                                <input name="country"  placeholder="Country"  type="text" class="col-md-8 input" value="<?php echo !empty($country)? $country : '';?>"/><p></p>
+                            
+                            
+                            
+                                <input name="email"  placeholder="email"  type="email" class="col-md-10  input" value="<?php echo !empty($email)? $email : '';?>"/><p></p>
+                                <input name="subject"  placeholder="Subject"  type="text" class="col-md-10 input" value="<?php echo !empty($subject)? $subject : '';?>"/><p></p>
+                            
+                            
+                            
+                            <textarea name="message"  placeholder="Message"  type="text" class="col-md-10 input2" value="<?php echo !empty($message)? $message : '';?>"></textarea><p></p>
+
+                            
+                            <input type=submit value="send" name="send"class="col-md-10 input submit" />
+                           
                         </form>
                     </aside>
                 
