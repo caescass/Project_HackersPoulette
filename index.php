@@ -33,15 +33,16 @@
 
                 <div class="row">
                    <!-- Début carousel-->
+                        <div class="container-fluid">
                         <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
+                          <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                              <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                            </ol>
+                            <!--/.Indicators-->
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
@@ -79,6 +80,7 @@
   <!--/.Controls-->
 </div>
 <!--/.Carousel Wrapper-->
+</div>
                    <!-- Fin carousel-->
             
             
