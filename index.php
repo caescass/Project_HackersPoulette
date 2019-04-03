@@ -24,29 +24,43 @@
 
     <!-- Fin de la navigation -->
 
+        <!-- Début du carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/7.png" alt="Première image">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/8.png" alt="Seconde image">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/11.png" alt="Troisième image">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    <!-- Fin du carousel-->
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/Untitled design(1).png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/Untitled design(2).png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/Untitled design(3).png" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    <!-- Présentation Hackers Poulette-->
+         <section class="row" style="background-color: white;">
+            <div class="col-sm-12 col-md-6" style="background-color: white;" >
+              <img src="assets/img/hackers-poulette-logo.png" class="img-fluid" alt="logo Hackers Poulette"/>
+            </div>
+            <div class="col-sm-12 col-md-6 p-5">
+              <h2>Qui sommes-nous ?</h1>
+              <p class="presentation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, qui, pariatur mollitia sapiente iste omnis labore aut vel cum molestias nesciunt molestiae, 
+                fugit consequuntur praesentium illum? Laudantium veritatis minus aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, a perspiciatis? Eum sunt est quo, delectus suscipit, molestiae cupiditate quod inventore dolor minus voluptatibus nobis? Porro, iste 
+                aspernatur. Unde, asperiores.</p>
+            </div>
 
+         </section>
 <!-- Le footer-->
 
 <footer class="footer" id="foot">

@@ -1,55 +1,70 @@
-
 body {
-    background: rgb(48,48,48);
-    background: linear-gradient(211deg, rgba(48,48,48,1) 0%, rgba(24,130,152,1) 37%, rgba(0,212,255,1) 100%); 
-    background-attachment: fixed;
-    font-family: "Bellota Bold";
+  background: rgb(48, 48, 48);
+  background: linear-gradient(
+    211deg,
+    rgba(48, 48, 48, 1) 0%,
+    rgba(24, 130, 152, 1) 37%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-attachment: fixed;
+  font-family: "Bellota Bold";
 }
 
 /* Logo et texte  */
-
-.img-fluid {
-    max-width:55%;
-
-}
-
 h1 {
-    font-family: Bellota;
-    color : white;
-    text-align: center;
+  font-family: Bellota;
+  color: white;
+  text-align: center;
 }
 
 hr {
-    color : white;
-    border: solid 1px white;
-    display: block;
+  color: white;
+  border: solid 1px white;
+  display: block;
 }
 
 p {
-    color: white;
+  color: white;
 }
+
+/* Présentation*/
+
+section.row {
+    margin: 0;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+.presentation {
+    color: #303030;
+    text-align: justify;
+    padding-top: 20px;
+}
+
 
 .footer {
-    font-family:bellota;
-    text-align: center;
-    background-color: #343A40;
+  font-family: bellota;
+  text-align: center;
+  background-color: #343a40;
 }
 
-.footer2{
-    font-family:bellota;
-    text-align: center;
+.footer2 {
+  font-family: bellota;
+  text-align: center;
 }
 
 /*Le formulaire*/
 
 h3 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
-#foot{
-
-    width: 100%;
-    padding-top: 2em;
-    padding-bottom: 2em;
+#foot {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }

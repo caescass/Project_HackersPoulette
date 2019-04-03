@@ -10,10 +10,6 @@
                 <li class="nav-item active footer">
                 <a class="nav-link footer" href="product.php">Produits <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active footer">
-                <a class="nav-link footer" href="product.php">Qui sommes-nous? <span class="sr-only">(current)</span></a>
-                </li>
-
                 <li class="nav-item footer">
                     <a class="nav-link footer" href="contact.php">Contact</a>
                 </li>

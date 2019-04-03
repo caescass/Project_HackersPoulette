@@ -1,15 +1,21 @@
+@charset "UTF-8";
 body { background: #303030; background: linear-gradient(211deg, #303030 0%, #188298 37%, #00d4ff 100%); background-attachment: fixed; font-family: "Bellota Bold"; }
 
 /* Logo et texte  */
-.img-fluid { max-width: 55%; }
-
 h1 { font-family: Bellota; color: white; text-align: center; }
 
 hr { color: white; border: solid 1px white; display: block; }
 
 p { color: white; }
 
-.footer { font-family: bellota; text-align: center; background-color: #343A40; }
+/* Présentation*/
+section.row { margin: 0; }
+
+h2 { text-align: center; }
+
+.presentation { color: #303030; text-align: justify; padding-top: 20px; }
+
+.footer { font-family: bellota; text-align: center; background-color: #343a40; }
 
 .footer2 { font-family: bellota; text-align: center; }
 
