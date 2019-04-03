@@ -63,7 +63,7 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {//je teste la methode d'envoi
         if (empty($_POST["message"])) {//si l'input name est vide
-            $messageError = "Name is required";//message d'erreur
+            $messageError = "Message is required";//message d'erreur
         } else {
             $message = test_input($_POST["message"]);//sinon on assigne l'input récupéré dans une  variable
         }

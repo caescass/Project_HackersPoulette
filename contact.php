@@ -49,30 +49,30 @@ include 'verifServer.php';
                     <!-- Le formulaire-->
                     <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6 slide-in-bottom">
                         <h3 class="center">Contact us</h3>
-                        <form action="contact.php" method="POST" OnSubmit="return verif()">
+                        <form action="sanitize.php" method="POST">
                             
-                                <input name="firstName"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input" value="<?php echo !empty($firstName)? $firstName : '';?>"/>
-                                <input name="lastName"  placeholder="Last Name" type="text" class="col-md-5 input" value="<?php echo !empty($lastName)? $lastName : '';?>"/><p></p>
+                                <input name="prenom"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input" required/>
+                                <input name="nom"  placeholder="Last Name" type="text" class="col-md-5 input" required/><p></p>
                             
                             
-                                <select name="genre" class="col-md-2 col-md-offset-1 input" value="<?php echo !empty($genre)? $genre : '';?>">
-                                    <option value="Man">H</option>
-                                    <option value="Women">F</option>
+                                <select name="genre" class="col-md-2 col-md-offset-1 input" required>
+                                    <option value="1">Man</option>
+                                    <option value="2">Woman</option>
                                 </select>
-                                <input name="country"  placeholder="Country"  type="text" class="col-md-8 input" value="<?php echo !empty($country)? $country : '';?>"/><p></p>
+                                <input name="pays"  placeholder="Country"  type="text" class="col-md-8 input" required/><p></p>
                             
                             
                             
-                                <input name="email"  placeholder="email"  type="email" class="col-md-10  input" value="<?php echo !empty($email)? $email : '';?>"/><p></p>
-                                <input name="subject"  placeholder="Subject"  type="text" class="col-md-10 input" value="<?php echo !empty($subject)? $subject : '';?>"/><p></p>
+                                <input name="email"  placeholder="email"  type="email" class="col-md-10  input" required/><p></p>
+                                <input name="sujet"  placeholder="Subject"  type="text" class="col-md-10 input" required/><p></p>
                             
                             
                             
-                            <textarea name="message"  placeholder="Message"  type="text" class="col-md-10 input2" value="<?php echo !empty($message)? $message : '';?>"></textarea><p></p>
+                            <textarea name="message"  placeholder="Message"  type="text" class="col-md-10 input2" required></textarea><p></p>
 
                             
                             <input type=submit value="send" name="send"class="col-md-10 input submit" />
-                           
+
                         </form>
                     </aside>
                 
