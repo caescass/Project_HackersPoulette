@@ -17,6 +17,12 @@ h1 {
   text-align: center;
 }
 
+.img-fluid {
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
 hr {
   color: white;
   border: solid 1px white;
@@ -68,3 +74,20 @@ h3 {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+/* Media Queries*/
+
+.img101, .img102, .img103 {
+    display: none;
+}
+
+
+@media (min-width: 300px) and (max-width: 800px){ 
+    .img1, .img2, .img3 {
+        display: none;
+    }
+    .img101, .img102, .img103 {
+        display: block;
+    }
+ }
+

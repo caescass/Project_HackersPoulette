@@ -28,13 +28,16 @@
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/7.png" alt="Première image">
+                <img class="w-100 img1" src="assets/img/7.png" alt="Première image">
+                <img class="w-100 img101" src="assets/img/res_1.png" alt="Première image">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/8.png" alt="Seconde image">
+                <img class="w-100 img2" src="assets/img/8.png" alt="Seconde image">
+                <img class="w-100 img102" src="assets/img/res_2.png" alt="Première image">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/11.png" alt="Troisième image">
+                <img class="w-100 img3" src="assets/img/11.png" alt="Troisième image">
+                <img class="w-100 img103" src="assets/img/res_3.png" alt="Première image">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,8 +53,8 @@
 
     <!-- Présentation Hackers Poulette-->
          <section class="row" style="background-color: white;">
-            <div class="col-sm-12 col-md-6" style="background-color: white;" >
-              <img src="assets/img/hackers-poulette-logo.png" class="img-fluid" alt="logo Hackers Poulette"/>
+            <div class="col-sm-12 col-md-6" >
+              <img src="assets/img/hackers-poulette-logo_couleur.png" class="img-fluid" alt="logo Hackers Poulette"/>
             </div>
             <div class="col-sm-12 col-md-6 p-5">
               <h2>Qui sommes-nous ?</h1>
@@ -61,6 +64,10 @@
             </div>
 
          </section>
+    <!-- Fin présentation Hackers Poulette-->
+
+    <!-- Début carousel card-->
+     
 <!-- Le footer-->
 
 <footer class="footer" id="foot">
