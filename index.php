@@ -46,7 +46,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100" src="assets/img/Untitled design(3).png" alt="Raspberry Pi">
+        <img class="d-block w-100 image-fluid" src="assets/img/Untitled design(3).png" alt="Raspberry Pi">
         <div class="mask rgba-black-light"></div>
       </div>
       
@@ -54,14 +54,14 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="assets/img/Untitled design(2).png" alt="Second slide">
+        <img class="d-block w-100 image-fluid" src="assets/img/Untitled design(2).png" alt="Second slide">
         <div class="mask rgba-black-strong"></div>
       </div>   
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="assets/img/Untitled design(1).png" alt="Third slide">
+        <img class="d-block w-100 image-fluid" src="assets/img/Untitled design(1).png" alt="Third slide">
         <div class="mask rgba-black-slight"></div>
       </div>
     </div>
