@@ -1,4 +1,4 @@
-# Le project Hackers Poulette
+# Le projet Hackers Poulette
 
 ## Quel est notre projet ?
 
@@ -10,9 +10,14 @@ Le domaine d'activité d'Hackers Poulette est la vente de matériel informatique
 
 ## Les technologies utilisées pour le projet :
 
-1. HTML & CSS : pour la structure du site et l'habillement
-2. Sass  : pour embellir le site
-3. Bootstrap : pour rendre le site responsive - créer le jumbotron, le carouselle, les cards et le menu
-4. PHP : pour le formulaire
+1. **HTML & CSS** : pour la structure du site et l'habillement
+2. **Sass**  : pour embellir le site
+3. **Bootstrap** : Framwework à utiliser pour rendre le site responsive - créer le jumbotron, le carouselle, les cards et le menu
+4. **PHP** : pour l'envoie des données via le formulaire
 
-[To be continued]
+## Les mockups // wireframes
+
+Nos idées représentées à l'aide de mockup PSD.
+
+![mockup, mockup](assets/mockup/logo hackerspoulette/mockup.png)
+
