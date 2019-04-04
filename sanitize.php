@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if (isset($_GET['bee-pot'])){
+    header('location: final2.php');
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -9,8 +14,8 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Validation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <!-- css -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/> <!-- mettre le css bootstrap en premier pour éviter que notre css ne l'écrase-->
     <link href="http://fr.allfont.net/allfont.css?fonts=bellota-bold" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/css/normalize.css">
@@ -67,15 +72,15 @@ session_start();
 
 
 <?php
-$mail = 'arnaud@becode.be'; // Déclaration de l'adresse de destination.
-if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
-{
-	$passage_ligne = "\r\n";
-}
-else
-{
-	$passage_ligne = "\n";
-}
+// $mail = 'arnaud@becode.be'; // Déclaration de l'adresse de destination.
+// if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
+// {
+// 	$passage_ligne = "\r\n";
+// }
+// else
+// {
+// 	$passage_ligne = "\n";
+// }
 // //=====Déclaration des messages au format texte et au format HTML.
 // $message_txt = $result['message'];
 // // $message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
@@ -120,12 +125,14 @@ else
 // Email du destinataire
 $to = "guy.vilain1@gmail.com";
 // Header du mail:
-$headers = 'From: ' . $filter_result["email"] . "\r\n" . 'Reply-To: ' . $filter_result["email"] . "\r\n" . "Content-Type: text/html; charset=UTF-8";
+$headers = 'From: ' . $result["email"] . <p></p> . 'Reply-To: ' . $result["email"] . <p></p> . "Content-Type: text/html; charset=UTF-8";
+// $headers = "from";
 // Sujet du mail:
 $subject = "Nouveau mail client";
 // Message contenu dans le mail:
-$message_mail = "Nom: " . $filter_result["nom"] . "<p>" . "Prénom: " . $filter_result["prenom"] . "<p>" . "Pays: " . $filter_result["pays"] . "<p>" . "Sujet: " . $filter_result["sujet"] . "<p>" . "Message: " . $filter_result["message"];
+$message_mail = "Nom: " . $filter_result['nom'] . <p></p> . "Prénom: " . $filter_result['prenom'] . <p></p> . "Pays: " . $filter_result['pays'] . <p></p> . "Sujet: " . $filter_result['sujet'] . <p></p> . "Message: " . $filter_result['message'];
+
+// $message_mail = "bonjour";
 // Fonction d'envoie du mail avec conf de ce que j'envoie
 mail($to, $subject, $message_mail, $headers);
 ?>
-

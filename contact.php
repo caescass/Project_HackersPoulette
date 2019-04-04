@@ -51,27 +51,26 @@
                         <h3 class="center">Contactez-nous</h3>
                         <form action="sanitize.php" method="POST">
                             
-                                <input name="prenom"  placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required/>
-                                <input name="nom"  placeholder="Nom" type="text" class="col-md-5 input" required/><p></p>
+                                <input name="prenom"  alt="tapez votre prénom ici" placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required/>
+                                <input name="nom" alt="tapez votre nom ici" placeholder="Nom" type="text" class="col-md-5 input" required/><p></p>
                             
                             
-                                <select name="genre" class="col-md-2 col-md-offset-1 input" required>
+                                <select alt="selectionnez votre genre h pour homme, f pour femme" name="genre" class="col-md-2 col-md-offset-1 input" required>
                                     <option value="1">H</option>
                                     <option value="2">F</option>
                                 </select>
-                                <input name="pays"  placeholder="Pays"  type="text" class="col-md-8 input" required/><p></p>
-                            
-                            
-                            
-                                <input name="email"  placeholder="email"  type="email" class="col-md-10  input" required/><p></p>
-                                <input name="sujet"  placeholder="Objet"  type="text" class="col-md-10 input" required/><p></p>
-                            
-                            
-                            
-                            <textarea name="message"  placeholder="Message"  type="text" class="col-md-10 input2" required></textarea><p></p>
+                                <!--Honey pot-->
+                                <select alt="tapez votre prénom ici" name="honey-pot" class="col-md-2 col-md-offset-1 input bee">
+                                    <option value="1">H</option>
+                                    <option value="2">F</option>
+                                </select>
+                                <input alt="tapez votre pays ici" name="pays"  placeholder="Pays"  type="text" class="col-md-8 input" required/><p></p>
+                                <input alt="tapez votre mail ici" name="email"  placeholder="email"  type="email" class="col-md-10  input" required/><p></p>
+                                <input alt="tapez l'objet de votre demande ici" name="sujet"  placeholder="Objet"  type="text" class="col-md-10 input" required/><p></p>
 
-                            
-                            <input type=submit value="Envoyer" name="send"class="col-md-10 input submit" />
+                            <textarea alt="tapez votre message ici" name="message"  placeholder="Message"  type="text" class="col-md-10 input2" required></textarea><p></p>
+
+                            <input alt="cliquez ici pour soumettre votre formulaire" type=submit value="Envoyer" name="send"class="col-md-10 input submit" />
 
                         </form>
                     </aside>

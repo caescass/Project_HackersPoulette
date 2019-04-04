@@ -32,6 +32,8 @@ h3 { color: white; text-align: center; }
 
 #foot { width: 100%; padding-top: 2em; padding-bottom: 2em; }
 
+.bee { display: none; }
+
 /* Media Queries*/
 .img101, .img102, .img103 { display: none; }
 
