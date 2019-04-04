@@ -37,7 +37,7 @@ include 'verifServer.php';
                         <img src="assets/img/hackers-poulette-logo_blanc-02.svg" class="img-fluid" alt="Hackers Poulette"/>
                         
                         <section class="visit slide-in-bck-top">
-                            <h1>Visit Us At</h1>
+                            <h1>Venez nous rendre visite</h1>
                             <!-- ligne blanche-->
                                 <hr>     
                             <p>Adress Quai Arthur Rimbaud 10</p>
@@ -48,7 +48,7 @@ include 'verifServer.php';
 
                     <!-- Le formulaire-->
                     <aside class="col-xs-12 col-sm-12 col-md-6 col-lg-6 slide-in-bottom">
-                        <h3 class="center">Contact us</h3>
+                        <h3 class="center">Contactez-nous</h3>
                         <form action="contact.php" method="POST" OnSubmit="return verif()">
                             
                                 <input name="firstName"  placeholder="First name" type="text" class="col-md-5 col-md-offset-2 input" value="<?php echo !empty($firstName)? $firstName : '';?>"/>

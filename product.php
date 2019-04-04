@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-md-offset-4 col-md-4">
-                <button class="btn btn-dark">Products</button>
+                <button class="btn btn-dark">Produits</button>
             </div>
         </div>
     </div>
@@ -60,10 +60,10 @@
 
           <h2 class="main-title">RASPBERRY PI MOD B+</h2>
           <hr>
-          <p class="main-text">1.4GHz 64-bit quad-core processor, dual-band wireless LAN, Bluetooth 4.2/BLE, faster Ethernet, and Power-over-Ethernet support (with separate PoE HAT)<br>
-          The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range.
-            Beginners should start with the NOOBS (New Out Of Box Software) operating system installation manager.</p>
-          <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" class="btn btn-blue">MORE INFO</a>
+          <p class="main-text">1.4GHz 64-bit processeur quad-core, réseau local sans fil double bande, Bluetooth 4.2/BLE, Ethernet plus rapide et prise en charge Power-over-Ethernet<br>
+          Le Raspberry Pi 3 Model B+ est le dernier produit de la gamme Raspberry Pi 3.
+Les débutants peuvent commencer par le gestionnaire d’installation du système d’exploitation NOOBS</p>
+          <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" class="btn btn-blue">Plus d'infos</a>
 
         </div>
         <!--Grid column-->
@@ -92,10 +92,10 @@
             <!--Card content-->
             <div class="card-body">
               <!--Title-->
-              <h4 class="card-title">Compute Module 3+/32GB</h4>
+              <h4 class="card-title">Module de calcul 3+/32GB</h4>
               <!--Text-->
-              <p class="card-text">The Compute Module 3+ (CM3+) is a Raspberry Pi 3 Model B+ in a flexible form factor, intended for industrial applications</p>
-              <a href="#!" class="btn btn-blue">Buy now</a>
+              <p class="card-text">Le module de calcul 3+ (CM3+) est un modèle B+ sous forme flexible, destiné aux applications industrielles. Le module de calcul contient les tripes d’un Raspberry Pi 3 modèle B+</p>
+              <a href="#!" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
           </div>
@@ -124,8 +124,8 @@
               <!--Title-->
               <h4 class="card-title">Raspberry Pi 3 Model A+</h4>
               <!--Text-->
-              <p class="card-text">1.4GHz 64-bit quad-core processor, dual-band wireless LAN, Bluetooth 4.2/BLE in the same mechanical format as the Raspberry Pi 1 Model A+</p>
-              <a href="#" class="btn btn-blue">Buy now</a>
+              <p class="card-text">Processeur quad-core 64-bit de 1.4GHz, réseau sans fil double bande, Bluetooth 4.2/BLE dans le même format mécanique que le Raspberry Pi 1 modèle A+</p>
+              <a href="#" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
           </div>
@@ -154,8 +154,8 @@
               <!--Title-->
               <h4 class="card-title">Raspberry Pi Zero W</h4>
               <!--Text-->
-              <p class="card-text">The Raspberry Pi Zero W extends the Pi Zero family and comes with added wireless LAN and Bluetooth connectivity.</p>
-              <a href="#" class="btn btn-blue">Buy now</a>
+              <p class="card-text">Le Raspberry Pi Zero W prolonge la famille Pi Zero et est livré avec une connectivité sans fil LAN et Bluetooth. Un petit Raspberry Pi qui est assez abordable pour n’importe quel projet!</p>
+              <a href="#" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
           </div>
@@ -171,7 +171,7 @@
     
         <div class="row mt-3">
             <div class="col-md-offset-4 col-md-4">
-                <button class="btn btn-dark">Raspberry pi accessories</button>
+                <button class="btn btn-dark">Les accessoires Raspberry Pi</button>
             </div>
         </div>
     
@@ -200,10 +200,10 @@
             <div class="card-body">
               <!--Title-->
                 <div class="title-h4">
-                    <h4 class="card-title">Raspberry Pi Universal Power Supply</h4>
+                    <h4 class="card-title">Raspberry Pi Alimentation électrique Universelle</h4>
                     <!--Text-->
-                    <p class="card-text">The official and recommended universal micro USB power supply for Raspberry Pi.</p>
-                    <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" class="btn btn-blue">Buy now</a>
+                    <p class="card-text">L’alimentation universelle micro USB officielle et recommandée pour Raspberry Pi</p>
+                    <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" class="btn btn-blue">Achetez maintenant</a>
                 </div>
             </div>
 
@@ -233,8 +233,8 @@
               <!--Title-->
               <h4 class="card-title">Raspberry Pi 3 Case</h4>
               <!--Text-->
-              <p class="card-text">The official Raspberry Pi case for the Raspberry Pi 3 Model B and Model B+, this model is available in red/white or black/grey.+</p>
-              <a href="https://www.raspberrypi.org/products/raspberry-pi-3-case/?variant=raspberry-pi-3-case" class="btn btn-blue">Buy now</a>
+              <p class="card-text">L’étui officiel Raspberry Pi pour le modèle Raspberry Pi 3 B et le modèle B+, ce modèle est disponible en rouge/blanc ou noir/gris</p>
+              <a href="https://www.raspberrypi.org/products/raspberry-pi-3-case/?variant=raspberry-pi-3-case" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
           </div>
@@ -261,10 +261,10 @@
             <!--Card content-->
             <div class="card-body">
               <!--Title-->
-              <h4 class="card-title">Raspberry Pi mouse</h4>
+              <h4 class="card-title">Souris Raspberry Pi</h4>
               <!--Text-->
-              <p class="card-text">The official Raspberry Pi mouse, available in raspberry red and white, or black and grey. The mouse has buttons which activate microswitches.</p>
-              <a href="https://www.raspberrypi.org/products/raspberry-pi-mouse/?variant=raspberry-pi-mouse-rw" class="btn btn-blue">Buy now</a>
+              <p class="card-text">La souris officielle Raspberry Pi, disponible en rouge framboise et blanc, ou noir et gris. La souris a des boutons qui activent les microcommutateurs</p>
+              <a href="https://www.raspberrypi.org/products/raspberry-pi-mouse/?variant=raspberry-pi-mouse-rw" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
           </div>
