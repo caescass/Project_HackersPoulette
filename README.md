@@ -19,5 +19,5 @@ Le domaine d'activité d'Hackers Poulette est la vente de matériel informatique
 
 Nos idées représentées à l'aide de mockup PSD.
 
-![Premier mockup]("https://aftercoaching.be/wp-content/uploads/2019/04/mockup.png")
+<img src= "https://aftercoaching.be/wp-content/uploads/2019/04/mockup.png" />
 
