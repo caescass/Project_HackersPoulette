@@ -76,44 +76,56 @@ else
 {
 	$passage_ligne = "\n";
 }
-//=====Déclaration des messages au format texte et au format HTML.
-$message_txt = $result['message'];
-// $message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
-//==========
+// //=====Déclaration des messages au format texte et au format HTML.
+// $message_txt = $result['message'];
+// // $message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
+// //==========
  
-//=====Création de la boundary
-$boundary = "-----=".md5(rand());
-//==========
+// //=====Création de la boundary
+// $boundary = "-----=".md5(rand());
+// //==========
 
-//=====Définition du sujet.
-$sujet = $result['sujet'];
-//=========
+// //=====Définition du sujet.
+// $sujet = $result['sujet'];
+// //=========
  
-//=====Création du header de l'e-mail.
-$header = "From:" . $result['email'] . $passage_ligne;
-$header.= "Reply-to: \"WeaponsB\" <guy.vilain1@gmail.com>".$passage_ligne;
-$header.= "MIME-Version: 1.0".$passage_ligne;
-$header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
-//==========
+// //=====Création du header de l'e-mail.
+// $header = "From:" . $result['email'] . $passage_ligne;
+// $header.= "Reply-to: \"WeaponsB\" <guy.vilain1@gmail.com>".$passage_ligne;
+// $header.= "MIME-Version: 1.0".$passage_ligne;
+// $header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
+// //==========
  
-//=====Création du message.
-$message = $passage_ligne."--".$boundary.$passage_ligne;
-//=====Ajout du message au format texte.
-$message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
-$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-$message.= $passage_ligne.$message_txt.$passage_ligne;
-//==========
-$message.= $passage_ligne."--".$boundary.$passage_ligne;
-//=====Ajout du message au format HTML
-$message.= "Content-Type: text/html; charset=\"ISO-8859-1\"".$passage_ligne;
-$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-$message.= $passage_ligne.$message_html.$passage_ligne;
-//==========
-$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
-$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
-//==========
+// //=====Création du message.
+// $message = $passage_ligne."--".$boundary.$passage_ligne;
+// //=====Ajout du message au format texte.
+// $message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
+// $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+// $message.= $passage_ligne.$message_txt.$passage_ligne;
+// //==========
+// $message.= $passage_ligne."--".$boundary.$passage_ligne;
+// //=====Ajout du message au format HTML
+// $message.= "Content-Type: text/html; charset=\"ISO-8859-1\"".$passage_ligne;
+// $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+// $message.= $passage_ligne.$message_html.$passage_ligne;
+// //==========
+// $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+// $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+// //==========
  
-//=====Envoi de l'e-mail.
-mail($email,$sujet,$message,$header);
-//==========
+// //=====Envoi de l'e-mail.
+// mail($email,$sujet,$message,$header);
+// //==========
+//
+// Email du destinataire
+$to = "guy.vilain1@gmail.com";
+// Header du mail:
+$headers = 'From: ' . $filter_result["email"] . "\r\n" . 'Reply-To: ' . $filter_result["email"] . "\r\n" . "Content-Type: text/html; charset=UTF-8";
+// Sujet du mail:
+$subject = "Nouveau mail client";
+// Message contenu dans le mail:
+$message_mail = "Nom: " . $filter_result["nom"] . "<p>" . "Prénom: " . $filter_result["prenom"] . "<p>" . "Pays: " . $filter_result["pays"] . "<p>" . "Sujet: " . $filter_result["sujet"] . "<p>" . "Message: " . $filter_result["message"];
+// Fonction d'envoie du mail avec conf de ce que j'envoie
+mail($to, $subject, $message_mail, $headers);
 ?>
+
