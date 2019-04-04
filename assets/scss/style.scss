@@ -7,7 +7,7 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
   background-attachment: fixed;
-  font-family: "Bellota Bold";
+  font-family: Bellota Bold;
 }
 
 /* Logo et texte  */
@@ -47,6 +47,7 @@ p {
   margin-bottom: 23em;
 
 }
+
 /* Présentation*/
 
 section.row {
@@ -61,6 +62,7 @@ h2 {
 .presentation {
     color: #303030;
     text-align: justify;
+    
     padding-top: 20px;
 }
 

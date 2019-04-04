@@ -1,39 +1,39 @@
 <?php
 
-    $firstNameError = "";
-    $firstName = "";
-    $lastNameError ="";
-    $lastName = "";
-    $country ="";
-    $countryError="";
+    $prenomError = "";
+    $prenom = "";
+    $nomError ="";
+    $nom = "";
+    $pays ="";
+    $paysError="";
     $email = "";
     $emailError = "";
     $message = "";
     $messageError = "";
-//1 Vérfie variable firstName
+//1 Vérfie variable prenom
     if ($_SERVER["REQUEST_METHOD"] == "POST") {//je teste la methode d'envoi
-        if (empty($_POST["firstName"])) {//si l'input name est vide
-            $firstNameError = "Name is required";//message d'erreur
+        if (empty($_POST["prenom"])) {//si l'input name est vide
+            $prenomError = "Name is required";//message d'erreur
         } else {
-            $firstName = test_input($_POST["firstName"]);//sinon on assigne l'input récupéré dans une  variable
+            $prenom = test_input($_POST["prenom"]);//sinon on assigne l'input récupéré dans une  variable
         }
     }
-//2 lastName
+//2 nom
     if ($_SERVER["REQUEST_METHOD"] == "POST") {//je teste la methode d'envoi
-        if (empty($_POST["lastName"])) {//si l'input name est vide
-            $lastNameError = "Last Name is required";//message d'erreur
+        if (empty($_POST["nom"])) {//si l'input name est vide
+            $nomError = "Last Name is required";//message d'erreur
         } else {
-            $lastName = test_input($_POST["lastName"]);//sinon on assigne l'input récupéré dans une  variable
+            $nom = test_input($_POST["nom"]);//sinon on assigne l'input récupéré dans une  variable
         }
     }
 
-// 3 country
+// 3 pays
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {//je teste la methode d'envoi
-        if (empty($_POST["country"])) {//si l'input name est vide
-            $countryError = "Country is required";//message d'erreur
+        if (empty($_POST["pays"])) {//si l'input name est vide
+            $paysError = "Country is required";//message d'erreur
         } else {
-            $country = test_input($_POST["country"]);//sinon on assigne l'input récupéré dans une  variable
+            $pays = test_input($_POST["pays"]);//sinon on assigne l'input récupéré dans une  variable
         }
     }
 

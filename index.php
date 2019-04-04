@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/> <!-- mettre le css bootstrap en premier pour éviter que notre css ne l'écrase-->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" /> <!-- création de notre propre feuille de style pour apporter plus de modifications-->
-    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/dernierAjout.css" />
+        <script src="assets/js/main.js"></script>
 </head>
 <body>
     <div class="main">
@@ -52,15 +53,17 @@
     <!-- Fin du carousel-->
 
     <!-- Présentation Hackers Poulette-->
-         <section class="row" style="background-color: white;">
-            <div class="col-sm-12 col-md-6" >
-              <img src="assets/img/hackers-poulette-logo_couleur.png" class="img-fluid" alt="logo Hackers Poulette"/>
+         <section class="row">
+            <div class="col-sm-12 col-md-6" style="background-color: white;" >
+              <img src="assets/img/hackers-poulette-logo_couleur.png" class="img-fluid scale-in-center mDown" alt="logo Hackers Poulette"/>
             </div>
-            <div class="col-sm-12 col-md-6 p-5">
-              <h2>Qui sommes-nous ?</h1>
-              <p class="presentation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, qui, pariatur mollitia sapiente iste omnis labore aut vel cum molestias nesciunt molestiae, 
-                fugit consequuntur praesentium illum? Laudantium veritatis minus aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, a perspiciatis? Eum sunt est quo, delectus suscipit, molestiae cupiditate quod inventore dolor minus voluptatibus nobis? Porro, iste 
-                aspernatur. Unde, asperiores.</p>
+            <div class="col-sm-12 col-md-6 p-5 slide-in-right">
+              <div class="fonty">
+                <h2>Qui sommes-nous ?</h1>
+                <p class="fonty2 slide-in-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, qui, pariatur mollitia sapiente iste omnis labore aut vel cum molestias nesciunt molestiae, 
+                  fugit consequuntur praesentium illum? Laudantium veritatis minus aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, a perspiciatis? Eum sunt est quo, delectus suscipit, molestiae cupiditate quod inventore dolor minus voluptatibus nobis? Porro, iste 
+                  aspernatur. Unde, asperiores.</p>
+              </div>
             </div>
 
          </section>

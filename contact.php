@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include ('verifServer.php');
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +52,7 @@
                         <h3 class="center">Contactez-nous</h3>
                         <form action="sanitize.php" method="POST">
                             
-                                <input name="prenom"  alt="tapez votre prénom ici" placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required/>
+                                <input name="prenom"  alt="tapez votre prénom ici" placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required value="<?php echo !empty($prenom)? $prenom : '';?>"/>
                                 <input name="nom" alt="tapez votre nom ici" placeholder="Nom" type="text" class="col-md-5 input" required/><p></p>
                             
                             

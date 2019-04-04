@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body { background: #303030; background: linear-gradient(211deg, #303030 0%, #188298 37%, #00d4ff 100%); background-attachment: fixed; font-family: "Bellota Bold"; }
+body { background: #303030; background: linear-gradient(211deg, #303030 0%, #188298 37%, #00d4ff 100%); background-attachment: fixed; font-family: Bellota Bold; }
 
 /* Logo et texte  */
 h1 { font-family: Bellota; color: white; text-align: center; }

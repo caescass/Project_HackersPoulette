@@ -44,7 +44,7 @@ if (isset($_GET['bee-pot'])){
     );
     $result = filter_input_array(INPUT_POST, $options);
     if ($result != null AND $result != FALSE) {
-        echo "<div class='sanitize1'><p>Vérifiez vos données: </p></div>";
+        echo "<div class='sanitize1 slide-in-bck-top'><p>Vérifiez vos données: </p></div>";
     
     } else {//inutile ma vérif se faire coté client
     
@@ -53,7 +53,7 @@ if (isset($_GET['bee-pot'])){
     }//inutile ma vérif se faire coté client
 
     
-    echo "<div class='sanitize2'><p>Prénom: " . $result['prenom'] . " Nom: " . $result['nom'] . "<p>";
+    echo "<div class='sanitize2 slide-in-bottom'><p>Prénom: " . $result['prenom'] . " Nom: " . $result['nom'] . "<p>";
     echo "<p>Email: " . $result['email'] . "</p>";
     if($result['genre'] == '1'){
         echo '<p>Genre: Homme. - ';
@@ -67,70 +67,21 @@ if (isset($_GET['bee-pot'])){
 ?>
     <form action="final.php">
         <input type="button" value="Modifier les données" onclick="history.go(-1)">
-        <input type="submit" value="Envoyez la demande">
+        <input type="submit" value="Envoyer la demande">
     </form>
 
 
 <?php
-// $mail = 'arnaud@becode.be'; // Déclaration de l'adresse de destination.
-// if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
-// {
-// 	$passage_ligne = "\r\n";
-// }
-// else
-// {
-// 	$passage_ligne = "\n";
-// }
-// //=====Déclaration des messages au format texte et au format HTML.
-// $message_txt = $result['message'];
-// // $message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
-// //==========
- 
-// //=====Création de la boundary
-// $boundary = "-----=".md5(rand());
-// //==========
 
-// //=====Définition du sujet.
-// $sujet = $result['sujet'];
-// //=========
- 
-// //=====Création du header de l'e-mail.
-// $header = "From:" . $result['email'] . $passage_ligne;
-// $header.= "Reply-to: \"WeaponsB\" <guy.vilain1@gmail.com>".$passage_ligne;
-// $header.= "MIME-Version: 1.0".$passage_ligne;
-// $header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
-// //==========
- 
-// //=====Création du message.
-// $message = $passage_ligne."--".$boundary.$passage_ligne;
-// //=====Ajout du message au format texte.
-// $message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
-// $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-// $message.= $passage_ligne.$message_txt.$passage_ligne;
-// //==========
-// $message.= $passage_ligne."--".$boundary.$passage_ligne;
-// //=====Ajout du message au format HTML
-// $message.= "Content-Type: text/html; charset=\"ISO-8859-1\"".$passage_ligne;
-// $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-// $message.= $passage_ligne.$message_html.$passage_ligne;
-// //==========
-// $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
-// $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
-// //==========
- 
-// //=====Envoi de l'e-mail.
-// mail($email,$sujet,$message,$header);
-// //==========
-//
 // Email du destinataire
 $to = "guy.vilain1@gmail.com";
 // Header du mail:
-$headers = 'From: ' . $result["email"] . <p></p> . 'Reply-To: ' . $result["email"] . <p></p> . "Content-Type: text/html; charset=UTF-8";
+$headers = 'From: ' . $result["email"] . "<p></p>" . 'Reply-To: ' . $result["email"] . "<p></p>" . "Content-Type: text/html; charset=UTF-8";
 // $headers = "from";
 // Sujet du mail:
 $subject = "Nouveau mail client";
 // Message contenu dans le mail:
-$message_mail = "Nom: " . $filter_result['nom'] . <p></p> . "Prénom: " . $filter_result['prenom'] . <p></p> . "Pays: " . $filter_result['pays'] . <p></p> . "Sujet: " . $filter_result['sujet'] . <p></p> . "Message: " . $filter_result['message'];
+$message_mail = "Nom: " . $result['nom'] . "<p></p>" . "Prénom: " . $result['prenom'] . "<p></p>" . "Pays: " . $result['pays'] . "<p></p>" . "Sujet: " . $result['sujet'] . "<p></p>" . "Message: " . $result['message'];
 
 // $message_mail = "bonjour";
 // Fonction d'envoie du mail avec conf de ce que j'envoie

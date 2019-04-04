@@ -27,7 +27,7 @@
     <!-- button products -->
     <div class="container marge2">
         <div class="row mt-3">
-            <div class="col-md-offset-4 col-md-4">
+            <div class="col-md-offset-4 col-md-4 scale-in-center">
                 <button class="btn btn-dark">Produits</button>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <!--Grid column-->
         <div class="col-md-7 mb-4">
 
-          <div class="view overlay z-depth-1-half">
+          <div class="view overlay z-depth-1-half scale-in-center">
             <img src="https://www.distrelec.ch/Web/WebShopImages/landscape_large/87/fa/raspberry-pi-b-plus-30001887fa.jpg" class="card-img-top" alt="">
             <div class="mask rgba-white-light"></div>
           </div>
@@ -56,7 +56,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-5 mb-4">
+        <div class="col-md-5 mb-4 scale-in-center">
 
           <h2 class="main-title">RASPBERRY PI MOD B+</h2>
           <hr>
@@ -75,7 +75,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
       <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-12 mb-4 scale-in-center2">
 
           <!--Card-->
           <div class="card">
@@ -94,7 +94,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
               <!--Title-->
               <h4 class="card-title">Module de calcul 3+/32GB</h4>
               <!--Text-->
-              <p class="card-text">Le module de calcul 3+ (CM3+) est un modèle B+ sous forme flexible, destiné aux applications industrielles. Le module de calcul contient les tripes d’un Raspberry Pi 3 modèle B+</p>
+              <p class="card-text">Le module de calcul 3+ (CM3+) est un modèle B+ sous forme flexible, destiné aux applications industrielles. Le module de calcul contient les tripes d’un Raspberry Pi 3 B+</p>
               <a href="#!" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
@@ -105,7 +105,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 scale-in-center2">
 
           <!--Card-->
           <div class="card">
@@ -124,7 +124,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
               <!--Title-->
               <h4 class="card-title">Raspberry Pi 3 Model A+</h4>
               <!--Text-->
-              <p class="card-text">Processeur quad-core 64-bit de 1.4GHz, réseau sans fil double bande, Bluetooth 4.2/BLE dans le même format mécanique que le Raspberry Pi 1 modèle A+</p>
+              <p class="card-text">Processeur quad-core 64-bit de 1.4GHz, réseau sans fil double bande, Bluetooth 4.2/BLE dans le même format mécanique que l'illustre et estimé Raspberry Pi 1 modèle A+</p>
               <a href="#" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
@@ -135,7 +135,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 scale-in-center2">
 
           <!--Card-->
           <div class="card">
@@ -169,7 +169,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
 
        <!-- button accessories -->
     
-        <div class="row mt-3">
+        <div class="row mt-3 scale-in-center3">
             <div class="col-md-offset-4 col-md-4">
                 <button class="btn btn-dark">Les accessoires Raspberry Pi</button>
             </div>
@@ -179,7 +179,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
     <!-- End button accessories-->
 
       <!--Grid row-->
-      <div class="row mt-4">
+      <div class="row mt-4 scale-in-center3">
 
         <!--Grid column-->
         <div class="col-lg-4 col-md-12 mb-4">
@@ -197,7 +197,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
             </div>
 
             <!--Card content-->
-            <div class="card-body">
+            <div class="card-body scale-in-center3">
               <!--Title-->
                 <div class="title-h4">
                     <h4 class="card-title">Raspberry Pi Alimentation électrique Universelle</h4>
@@ -214,7 +214,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 scale-in-center3">
 
           <!--Card-->
           <div class="card">
@@ -229,7 +229,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
             </div>
 
             <!--Card content-->
-            <div class="card-body">
+            <div class="card-body scale-in-center3">
               <!--Title-->
               <h4 class="card-title">Raspberry Pi 3 Case</h4>
               <!--Text-->
@@ -244,7 +244,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 scale-in-center3">
 
           <!--Card-->
           <div class="card">
@@ -263,7 +263,7 @@ Les débutants peuvent commencer par le gestionnaire d’installation du systèm
               <!--Title-->
               <h4 class="card-title">Souris Raspberry Pi</h4>
               <!--Text-->
-              <p class="card-text">La souris officielle Raspberry Pi, disponible en rouge framboise et blanc, ou noir et gris. La souris a des boutons qui activent les microcommutateurs</p>
+              <p class="card-text">La souris officielle Raspberry Pi, disponible en rouge framboise et blanc, ou noir et gris. La souris a des boutons qui activent les ...</p>
               <a href="https://www.raspberrypi.org/products/raspberry-pi-mouse/?variant=raspberry-pi-mouse-rw" class="btn btn-blue">Achetez maintenant</a>
             </div>
 
