@@ -19,5 +19,5 @@ Le domaine d'activité d'Hackers Poulette est la vente de matériel informatique
 
 Nos idées représentées à l'aide de mockup PSD.
 
-![Premier mockup]("/var/www/html/project_HackersPoulette/assets/mockup/logo hackerspoulette/mockup.png")
+![Premier mockup]("https://drive.google.com/file/d/1sk2m1pGRmJhDQg4TQCh1VRLviuurv03S/view?usp=sharing")
 
