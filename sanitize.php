@@ -60,15 +60,14 @@ session_start();
     echo "<p>Objet: " . $result['sujet'] . "<p>";
     echo "<p>Votre demande: </p><p>" . $result['message'] . "<p>";
 ?>
-    <form>
-  <input type="button" value="Modifier les données" onclick="history.go(-1)">
-  <input type="button" value="Envoyez la demande">
-
-</form>
+    <form action="final.php">
+        <input type="button" value="Modifier les données" onclick="history.go(-1)">
+        <input type="submit" value="Envoyez la demande">
+    </form>
 
 
 <?php
-$mail = 'guy.vilain1@gmail.com'; // Déclaration de l'adresse de destination.
+$mail = 'arnaud@becode.be'; // Déclaration de l'adresse de destination.
 if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
 {
 	$passage_ligne = "\r\n";
@@ -78,21 +77,21 @@ else
 	$passage_ligne = "\n";
 }
 //=====Déclaration des messages au format texte et au format HTML.
-$message_txt = "Salut à tous, voici un e-mail envoyé par un script PHP.";
-$message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
+$message_txt = $result['message'];
+// $message_html = "<html><head></head><body><b>Salut à tous</b>, voici un e-mail envoyé par un <i>script PHP</i>.</body></html>";
 //==========
  
 //=====Création de la boundary
 $boundary = "-----=".md5(rand());
 //==========
- 
+
 //=====Définition du sujet.
-$sujet = "Hey mon ami !";
+$sujet = $result['sujet'];
 //=========
  
 //=====Création du header de l'e-mail.
-$header = "From: \"WeaponsB\"<weaponsb@mail.fr>".$passage_ligne;
-$header.= "Reply-to: \"WeaponsB\" <weaponsb@mail.fr>".$passage_ligne;
+$header = "From:" . $result['email'] . $passage_ligne;
+$header.= "Reply-to: \"WeaponsB\" <guy.vilain1@gmail.com>".$passage_ligne;
 $header.= "MIME-Version: 1.0".$passage_ligne;
 $header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
 //==========
@@ -115,6 +114,6 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //==========
  
 //=====Envoi de l'e-mail.
-init_set($email,$sujet,$message,$header);
+mail($email,$sujet,$message,$header);
 //==========
 ?>
