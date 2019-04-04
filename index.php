@@ -25,7 +25,7 @@
     <!-- Fin de la navigation -->
 
         <!-- Début du carousel -->
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide marge" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="w-100 img1" src="assets/img/7.png" alt="Première image">

@@ -25,7 +25,7 @@
     <!-- Fin de la navigation -->
 
     <!-- button products -->
-    <div class="container">
+    <div class="container marge2">
         <div class="row mt-3">
             <div class="col-md-offset-4 col-md-4">
                 <button class="btn btn-dark">Produits</button>

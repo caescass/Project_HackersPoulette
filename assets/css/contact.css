@@ -1,4 +1,4 @@
-#principal { font-family: bellota; margin-top: 3em; }
+#principal { font-family: bellota; margin-top: 10em; }
 
 .img-fluid { width: 55%; }
 
@@ -18,7 +18,7 @@
 
 .center { margin-left: -5em; }
 
-.submit { font-family: bellota; background-color: #343A40; color: white; margin-bottom: 2em; }
+.submit { font-family: bellota; background-color: #343a40; color: white; margin-bottom: 2em; }
 
 .slide-in-bck-top { -webkit-animation: slide-in-bck-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; animation: slide-in-bck-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
