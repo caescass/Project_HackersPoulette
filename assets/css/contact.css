@@ -1,6 +1,6 @@
 #principal { font-family: bellota; margin-top: 10em; }
 
-.img-fluid { width: 55%; }
+.img-fluid { width: 55%; margin-left: 20%; margin-top: 1%; }
 
 .input { font-family: bellota; background-color: rgba(0, 0, 0, 0.08); border-style: solid; border-width: 1px; border-color: white; height: 3em; }
 
