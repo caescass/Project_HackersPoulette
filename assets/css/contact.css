@@ -20,7 +20,8 @@
 
 @media (min-width: 300px) and (max-width: 800px) { .un { margin-left: 0; }
   #principal { margin-top: 3em; }
-  .visit p { text-align: center; } }
+  .visit p { text-align: center; }
+  .img-fluid { margin-left: 23%; } }
 
 .center { margin-left: -5em; }
 

@@ -35,3 +35,7 @@ Pour s'organiser, **Cassandra** a créé des mockups PSD pour avoir un aperçu "
 1. Cassandra : - J'ai pris de l'avance sur le projet en créant les mockups PSD pour m'aider à visualiser le projet. Cependant, j'ai très vite perdu confiance quand j'ai commencé à coder sur Bootstrap. J'avais beaucoup trop d'idées en tête et je me suis laissée submerger. Je regardais beaucoup autour de moi et je me suis mis une pression sur moi-même. J'ai résolu ce problème en prenant le temps de discuter avec les autres. Grâce à eux, j'ai pu "pusher" la première version graphique du projet Hackers Poulette. Je compte apporter des améliorations au niveau du front plus tard.
 
 2. Guy: Découverte sur le tas de la partie backend, plusieurs solutions pour un même problème, la plus grosse difficulté reste de ne pas se sentir à la hauteur en démarrant le projet et de décevoir mon coéquipier en cas d'échec. Comme toujours avec moi, les difficultés sont surtout internes, les obstacles se lèvent après une introspection.
+
+#### Les ressources :
+
+Les images proviennent du site <a href="https://www.raspberrypi.org/">Raspberry Pi</a>, de <a href="TechRepublic">Techn Repunblic</a> et de <a href="TechRadar">Tech Radar</a>.

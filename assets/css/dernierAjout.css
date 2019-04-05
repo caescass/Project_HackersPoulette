@@ -1,8 +1,8 @@
 .mDown { margin-bottom: 5em; }
 
-.fonty { font-family: Bellota; border: solid 1px white; color: white; margin-top: 2.5em; margin-bottom: auto; padding-top: 1.5em; }
+.fonty { font-family: Bellota; border: solid 1px black; color: black; margin-top: 2.5em; margin-bottom: auto; padding-top: 1.5em; }
 
-.fonty2 { font-family: Bellota; color: white; padding-top: 1em; padding-bottom: 1em; padding-left: 1em; padding-right: 1em; }
+.fonty2 { font-family: Bellota; color: black; padding-top: 1em; padding-bottom: 1em; padding-left: 1em; padding-right: 1em; }
 
 .scale-in-center { -webkit-animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 

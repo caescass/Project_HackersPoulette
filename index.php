@@ -52,9 +52,9 @@
           </div>
     <!-- Fin du carousel-->
 
-    <!-- Présentation Hackers Poulette-->
-         <section class="row">
-            <div class="col-sm-12 col-md-6" style="background-color: white;" >
+    <!-- Pasberry Pi et ce que nous vendons-->
+         <section class="row" style="background-color: white;">
+            <div class="col-sm-12 col-md-6">
               <img src="https://cdn.freebiesupply.com/logos/large/2x/raspberry-pi-logo-png-transparent.png" class="img-fluid scale-in-center mDown" alt="logo Hackers Poulette"/>
             </div>
             <div class="col-sm-12 col-md-6 p-5 slide-in-right">
@@ -67,7 +67,7 @@
             </div>
 
          </section>
-    <!-- Fin présentation Hackers Poulette-->
+    <!-- Fin Raspberry Pi et ce que nous vendons-->
 
     <!-- Début carousel card-->
      
