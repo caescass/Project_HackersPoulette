@@ -55,11 +55,11 @@
     <!-- Présentation Hackers Poulette-->
          <section class="row">
             <div class="col-sm-12 col-md-6" style="background-color: white;" >
-              <img src="assets/img/hackers-poulette-logo_couleur.png" class="img-fluid scale-in-center mDown" alt="logo Hackers Poulette"/>
+              <img src="https://cdn.freebiesupply.com/logos/large/2x/raspberry-pi-logo-png-transparent.png" class="img-fluid scale-in-center mDown" alt="logo Hackers Poulette"/>
             </div>
             <div class="col-sm-12 col-md-6 p-5 slide-in-right">
               <div class="fonty">
-                <h2>Qui sommes-nous ?</h1>
+                <h2>Ce que nous vendons ?</h1>
                 <p class="fonty2 slide-in-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, qui, pariatur mollitia sapiente iste omnis labore aut vel cum molestias nesciunt molestiae, 
                   fugit consequuntur praesentium illum? Laudantium veritatis minus aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, a perspiciatis? Eum sunt est quo, delectus suscipit, molestiae cupiditate quod inventore dolor minus voluptatibus nobis? Porro, iste 
                   aspernatur. Unde, asperiores.</p>

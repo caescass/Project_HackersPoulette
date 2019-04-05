@@ -16,6 +16,12 @@
 
 .un { font-family: bellota; margin-left: 6em; }
 
+.visit p { text-align: center; font-size: 1.5em; }
+
+@media (min-width: 300px) and (max-width: 800px) { .un { margin-left: 0; }
+  #principal { margin-top: 3em; }
+  .visit p { text-align: center; } }
+
 .center { margin-left: -5em; }
 
 .submit { font-family: bellota; background-color: #343a40; color: white; margin-bottom: 2em; }
