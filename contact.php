@@ -1,6 +1,26 @@
 <?php
     session_start();
-    include ('verifServer.php');
+    include 'verifServer.php';
+
+    // $prenomError = "";
+    // $prenom = "";
+    // $nomError ="";
+    // $nom = "";
+    // $pays ="";
+    // $paysError="";
+    // $email = "";
+    // $emailError = "";
+    // $message = "";
+    // $messageError = "";
+
+    // $_SESSION['nom'] = $_POST['nom'];
+    // $_SESSION['prenom'] = $_POST['prenom'];
+    // $_SESSION['genre'] = $_POST['genre'];
+    // $_SESSION['pays'] = $_POST['pays'];
+    // $_SESSION['sujet'] = $_POST['sujet'];
+    // $_SESSION['message'] = $_POST['message'];
+    // $_SESSION['email'] = $_
+
 ?>
 
 <!DOCTYPE html>
@@ -52,8 +72,8 @@
                         <h3 class="center">Contactez-nous</h3>
                         <form action="sanitize.php" method="POST">
                             
-                                <input name="prenom"  alt="tapez votre prénom ici" placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required value="<?php echo !empty($prenom)? $prenom : '';?>"/>
-                                <input name="nom" alt="tapez votre nom ici" placeholder="Nom" type="text" class="col-md-5 input" required/><p></p>
+                                <input name="prenom"  alt="tapez votre prénom ici" value="<?php echo !empty($prenom)? $prenom : '';?>" placeholder="Prénom" type="text" class="col-md-5 col-md-offset-2 input" required value="<?php echo !empty($prenom)? $prenom : '';?>"/>
+                                <input name="nom" alt="tapez votre nom ici"  value="<?php echo !empty($nom)? $nom : '';?>" placeholder="Nom" type="text" class="col-md-5 input" required/><p></p>
                             
                             
                                 <select alt="selectionnez votre genre h pour homme, f pour femme" name="genre" class="col-md-2 col-md-offset-1 input" required>
@@ -65,11 +85,11 @@
                                     <option value="1">H</option>
                                     <option value="2">F</option>
                                 </select>
-                                <input alt="tapez votre pays ici" name="pays"  placeholder="Pays"  type="text" class="col-md-8 input" required/><p></p>
-                                <input alt="tapez votre mail ici" name="email"  placeholder="email"  type="email" class="col-md-10  input" required/><p></p>
-                                <input alt="tapez l'objet de votre demande ici" name="sujet"  placeholder="Objet"  type="text" class="col-md-10 input" required/><p></p>
+                                <input alt="tapez votre pays ici" name="pays"   value="<?php echo !empty($pays)? $pays : '';?>" placeholder="Pays"  type="text" class="col-md-8 input" required/><p></p>
+                                <input alt="tapez votre mail ici" name="email"   value="<?php echo !empty($email)? $email : '';?>"placeholder="email"  type="email" class="col-md-10  input" required/><p></p>
+                                <input alt="tapez l'objet de votre demande ici" name="sujet"   value="<?php echo !empty($sujet)? $sujet : '';?>" placeholder="Objet"  type="text" class="col-md-10 input" required/><p></p>
 
-                            <textarea alt="tapez votre message ici" name="message"  placeholder="Message"  type="text" class="col-md-10 input2" required></textarea><p></p>
+                            <textarea alt="tapez votre message ici" name="message"   value="<?php echo !empty($message)? $message : '';?>" placeholder="Message"  type="text" class="col-md-10 input2" required></textarea><p></p>
 
                             <input alt="cliquez ici pour soumettre votre formulaire" type=submit value="Envoyer" name="send"class="col-md-10 input submit" />
 
@@ -84,11 +104,10 @@
         </div> 
     <!-- Fin du container-fluid -->
     </div>
-    <footer class="footer" id="foot">
     <?php
     include 'footer.php';
     ?>
-    </footer>
+
 <!-- javacript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

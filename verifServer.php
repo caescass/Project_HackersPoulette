@@ -54,10 +54,10 @@
     }
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {//je teste la methode d'envoi
-        if (empty($_POST["subject"])) {//si l'input name est vide
-            $subjectError = "Subject is required";//message d'erreur
+        if (empty($_POST["sujet"])) {//si l'input name est vide
+            $sujetError = "sujet is required";//message d'erreur
         } else {
-            $subject = test_input($_POST["subject"]);//sinon on assigne l'input récupéré dans une  variable
+            $sujet = test_input($_POST["sujet"]);//sinon on assigne l'input récupéré dans une  variable
         }
     }
 
