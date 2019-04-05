@@ -28,7 +28,7 @@ Le projet Hackers Poulette devait se réaliser en duo. Notre groupe : Cassandra 
 **Guy** s'est occupé du BACK-END du formulaire de contact.
 Chaque personne avait une tâche respective mais il était possible d'échanger les rôles en cas de besoin.
 
-Pour s'organiser, **Cassandra** a créé des mockups PSD pour avoir un aperçu "final" du projet. Les mockups nous permettent de respecter la charte graphique du client. Nous n'avions pas utilisé l'outil **trello** par oubli, mais il y a eu beaucoup de retours entre nous. La communication était primmordiale arriver à la fin de ce projet.
+Pour s'organiser, **Cassandra** a créé des mockups PSD pour avoir un aperçu "final" du projet. Les mockups nous permettent de respecter la charte graphique du client. Nous n'avions pas utilisé l'outil **trello** par oubli, mais il y a eu beaucoup de retours entre nous. La communication était primmordiale pour arriver à la fin de ce projet.
 
 ### Difficultés rencontrées :
 
