@@ -19,7 +19,7 @@
     // $_SESSION['pays'] = $_POST['pays'];
     // $_SESSION['sujet'] = $_POST['sujet'];
     // $_SESSION['message'] = $_POST['message'];
-    // $_SESSION['email'] = $_
+    // $_SESSION['email'] = $_POST['email'];
 
 ?>
 
